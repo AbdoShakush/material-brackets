@@ -1,0 +1,21 @@
+{
+    "title": "Material-Brackets",
+    "name": "material-brackets",
+    "description": "A Brackets port of Mattia Astorino's Material theme for Sublime Text.",
+    "version": "1.0.0",
+    "author": "Abdo Shakush <abdoshakush@gmail.com> (http://shakush.me/)",
+    "homepage": "https://github.com/Vitallity/material-brackets",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Brackets-Theme/Spacegray-Brackets.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+    "theme": {
+        "file": "theme.less",
+        "dark": true
+    },
+    "keywords": ["theme"]
+}
