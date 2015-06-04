@@ -1,5 +1,5 @@
 # material-brackets
-A Brackets port of Mattia Astorino's Material theme for Sublime Text.
+A Brackets port of [Mattia Astorino's](https://github.com/equinusocio) Material theme for Sublime Text.
 
 # Dependencies
 
