@@ -24,3 +24,7 @@ As Brackets doesn't allow UI theming by default, I have used Ryan McKay's bracke
 - Navigate to "~/.config/brackets/extensions/user"
 - Unzip it here
 - Rename to "material-brackets" (optional)
+
+# Screenshots (Work In Progress)
+
+![UI and Less](http://i.imgur.com/47yW46c.png)
