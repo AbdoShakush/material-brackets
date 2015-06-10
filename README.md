@@ -4,9 +4,11 @@ A Brackets port of Mattia Astorino's Material theme for Sublime Text.
 # Dependencies (Required Extensions)
 
 - Brackets UI Theming Enabler
+- 
 This is needed for UI styling changes to take effect, otherwise only the code window is changed.
 
 - Brackets Icons
+- 
 For the icons before the file names in the project panel.
 
 # How to install
