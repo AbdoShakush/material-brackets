@@ -1,9 +1,13 @@
 # material-brackets
-A Brackets port of [Mattia Astorino's](https://github.com/equinusocio) Material theme for Sublime Text.
+A Brackets port of Mattia Astorino's Material theme for Sublime Text.
 
-# Dependencies
+# Dependencies (Required Extensions)
 
-As Brackets doesn't allow UI theming by default, I have used Ryan McKay's brackets-uitheming extension. Download it from the Brackets Extension Manager. Otherwise you get the default UI colors.
+- Brackets UI Theming Enabler
+This is needed for UI styling changes to take effect, otherwise only the code window is changed.
+
+- Brackets Icons
+For the icons before the file names in the project panel.
 
 # How to install
 
@@ -24,7 +28,3 @@ As Brackets doesn't allow UI theming by default, I have used Ryan McKay's bracke
 - Navigate to "~/.config/brackets/extensions/user"
 - Unzip it here
 - Rename to "material-brackets" (optional)
-
-# Screenshots (Work In Progress)
-
-![UI and Less](http://i.imgur.com/47yW46c.png)

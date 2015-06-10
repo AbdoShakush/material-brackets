@@ -1,5 +1,5 @@
 /* Define some variables used in multiple places */
-@background: #273238;
+@background: #243138;
 @foreground: #f0f1f5;
 
 /* Code Styling */
@@ -27,10 +27,13 @@
     }
 }
 
+.cm-number {color: #fffd94;}
+.cm-variable-2{color: #de5d79;}
+.cm-tag {color: #eea757};
 .cm-atom, .cm-string, .cm-string-2, .cm-hr {color: #f7f98f;}
-.cm-number, .cm-attribute, .cm-plus {color: #f7f990;}
+//.cm-number, .cm-attribute, .cm-plus {color: #f7f990;}
 .cm-def {color: @foreground;}
-.cm-variable, .cm-variable-2, .cm-operator, .cm-meta, .cm-bracket {color: @foreground !important;}
+//.cm-variable, .cm-variable-2, .cm-operator, .cm-meta, .cm-bracket {color: @foreground !important;}
 .cm-comment {color: #597682;}
 .cm-error, .cm-minus {background: rgba(207, 59, 60, 0.2); color: #cf3b3c;}
 .cm-header {color: #d85896;}
@@ -39,9 +42,9 @@
 .cm-builtin, .cm-quote {color: #e8c884;}
 .cm-qualifier {color: #caf08e;}
 .cm-keyword {color: #b48ead;}
-.cm-tag {color: #bf616a;}
 .cm-property {color: #aad4d1;}
 .cm-variable-3 {color: #f66481;}
+
 
 /* Extra CSS */
 
@@ -63,7 +66,7 @@
 }
 
 .CodeMirror-linenumber {
-    color: #767676;
+    color: #2f4249;
 }
 
 .CodeMirror .CodeMirror-selected {
@@ -95,36 +98,7 @@
     that uses a descandant selector where the CSS class name to the left of the space is something
     other than a vanilla .CodeMirror)
  */
-.CodeMirror {
-    .CodeMirror {
-        background: transparent;
-    }
 
-    .CodeMirror .CodeMirror-gutters {
-        background: transparent;
-        border-right: none;
-    }
-
-    .CodeMirror .CodeMirror-activeline-background {
-        background: transparent;
-    }
-
-    .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
-        background: transparent;
-        color: #767676;
-    }
-
-    .CodeMirror-focused .CodeMirror-activeline-background {
-        background: #2f2f2f;
-    }
-
-    .CodeMirror-focused .CodeMirror-activeline {
-        .CodeMirror-gutter-elt {
-            background: rgba(0, 0, 0, 0.2);
-            color: #fff;
-        }
-    }
-}
 
 /* Non-editor styling */
 
@@ -137,50 +111,30 @@
     color: @foreground;
 }
 
-.panel{
-    background:#273238;
-}
-
-.dark #status-bar{
-    background:#273238;    
-}
-
 .dark #status-indicators{
-    background:#273238; 
+    background:#243138; 
 }
 
 #working-set-list-container {
-background: #273238;
+background: #243138;
 }
 
 #project-files-header .btn-alt-quiet {
-background-color: #273238;
+background-color: #243138;
 }
 
-.working-set-header {
-background: #273238;
+.working-set-header, .panel, #main-toolbar, .dark #status-bar {
+background: #243138;
 } 
 
 .working-set-header>span {
-background: #273238;
+background: #243138;
 }
-
-#main-toolbar {
-    background: #273238;
+.jstree-brackets li.jstree-closed>a, .jstree-brackets li.jstree-open>a {
+color: #B0BFC6;
 }
-
-.jstree-brackets li a.jstree-clicked, .jstree-brackets li a:hover.jstree-clicked, .jstree-brackets li a.jstree-clicked .extension, .jstree-brackets li a:hover.jstree-clicked .extension {
-    color: #86d8cf;
-    font-family:Helvetica;
-}
-
-.open-files-container li.selected a{
-    color: #86d8cf;
-    font-family:Helvetica;
-    font-weight:bold;
-}
-
-.open-files-container li.selected .extension {
-    color: #86d8cf;
-    font-family:Helvetica;
+    
+.sidebar-selection, .filetree-selection, .sidebar-selection-extension, .filetree-selection-extension {
+background: none;
+border:none;
 }
