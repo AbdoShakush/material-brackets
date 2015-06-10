@@ -30,3 +30,7 @@ For the icons before the file names in the project panel.
 - Navigate to "~/.config/brackets/extensions/user"
 - Unzip it here
 - Rename to "material-brackets" (optional)
+
+# Screenshots
+
+![Screenshot](http://i.imgur.com/UdwkGSH.png)
