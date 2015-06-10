@@ -1,4 +1,4 @@
-/* Define some variables used in multiple places */
+/* Variables used in multiple places */
 @background: #243138;
 @foreground: #f0f1f5;
 
@@ -31,9 +31,7 @@
 .cm-variable-2{color: #de5d79;}
 .cm-tag {color: #eea757};
 .cm-atom, .cm-string, .cm-string-2, .cm-hr {color: #f7f98f;}
-//.cm-number, .cm-attribute, .cm-plus {color: #f7f990;}
 .cm-def {color: @foreground;}
-//.cm-variable, .cm-variable-2, .cm-operator, .cm-meta, .cm-bracket {color: @foreground !important;}
 .cm-comment {color: #597682;}
 .cm-error, .cm-minus {background: rgba(207, 59, 60, 0.2); color: #cf3b3c;}
 .cm-header {color: #d85896;}
@@ -86,19 +84,6 @@
     border-left: none !important;
     border-bottom: 1px solid #fff;
 }
-
-/*
-    CodeMirror's use of descendant selectors for certain styling causes problems when editors are
-    nested because, for items in the inner editor, the left-hand clause in the selector will now
-    match either the actual containing CodeMirror instance *OR* the outer "host" CodeMirror instance.
-
-    TODO (issue #324): We'll still have problems if editors can be nested more than one level deep,
-    or if any other descendant-selector-driven CM styles can differ between inner & outer editors
-    (potential problem areas include line wrap and coloring theme: basically, anything in codemirror.css
-    that uses a descandant selector where the CSS class name to the left of the space is something
-    other than a vanilla .CodeMirror)
- */
-
 
 /* Non-editor styling */
 
